@@ -1,0 +1,25 @@
+.bloco {
+    padding: 1em;
+    margin-left: 30px;
+    margin-right: 30px;
+    font-weight: 700;
+    color: var(--clr-light);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    color: #4A4C4B;
+    border-bottom: 1px solid #323441;
+}
+
+p{
+    color: #616D7E;
+}
+
+.midFooter {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: 1px solid #323441;
+}
