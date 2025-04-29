@@ -4,7 +4,7 @@
   --clr-accent: #e11d48;
 }
 
-body {
+.body {
   margin: 0;
   padding: 0;
   line-height: 1.6;

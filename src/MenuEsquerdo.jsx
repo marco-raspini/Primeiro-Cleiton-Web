@@ -4,10 +4,10 @@ import Child from "./imagens/child.jpeg"
 function MenuEsquerdo() {
     return (
         <>
-            <div class="bloco">
+            <div className="bloco">
                 <img src={Child}/>
                 <h1>Para ser muito bom amanhã, é preciso começar a praticar hoje!</h1>
-                <div class="midFooter">
+                <div className="midFooter">
                     <p>Prof. Cleiton</p>
                     <p>24 Fev 2025</p>
                     <p>16:40</p>
@@ -16,9 +16,9 @@ function MenuEsquerdo() {
                 <p>Aqui você e seu filhoo irão encontrar exercícios relacionados ao conteúdo ensinado nos primeiros anos escolares e buscara aperfeiçoar seu conhecimento nas operações básicas;</p>
             </div>
 
-            <div class="bloco">
+            <div className="bloco">
                 <h1>Matemática: O Alicerce para o Sucesso Escolar!</h1>
-                <div class="midFooter">
+                <div className="midFooter">
                     <p>Prof. Cleiton</p>
                     <p>24 Fev 2025</p>
                     <p>16:40</p>

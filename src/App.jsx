@@ -3,25 +3,24 @@ import Header from './header.jsx'
 import MenuEsquerdo from './MenuEsquerdo.jsx'
 import MenuDireito from './MenuDireito.jsx'
 
-
 function App() {
   return (
     <>
-      <body>
-        <div class="container">
-          <div class="header">
-            <Header></Header>
+      <div className="body">
+        <div className="container">
+          <div className="header">
+            <Header/>
           </div>
-          <div class="midPage">
-            <div class="item item-1">
-              <MenuEsquerdo></MenuEsquerdo>
+          <div className="midPage">
+            <div className="item item-1">
+              <MenuEsquerdo/>
             </div>
-            <div class="item item-2">
-              <MenuDireito></MenuDireito>
+            <div className="item item-2">
+              <MenuDireito/>
             </div>
           </div>
         </div>
-      </body >
+      </div >
     </>
   )
 }
